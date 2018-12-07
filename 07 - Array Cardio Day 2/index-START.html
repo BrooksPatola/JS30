@@ -52,7 +52,12 @@ console.log({isAdult});
     console.log(index);
 
     comments.splice(index, 1);
-
+    
+    //ES6 with spread
+   /*  const newComments = [
+      ...comments.slice(0, index),
+      ...comments.slice(index + 1)
+    ]; */
 
   </script>
 </body>
